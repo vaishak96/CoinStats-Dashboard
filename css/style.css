@@ -1,0 +1,94 @@
+#chart-area svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  height:50px;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 5px 0px;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #777;
+  stroke-width: 3px;
+}
+  
+.hover-line {
+  stroke: #777;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3px;
+  stroke: grey;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.info-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info-container h4 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.info-container ul, .info-container ol {
+  padding-left: 20px;
+}
+
+.info-container p, .info-container ul, .info-container ol {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
